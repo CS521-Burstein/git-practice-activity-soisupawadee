@@ -3,6 +3,7 @@ def factorial(n):
         return n
     else:
 
-        return factorial(n+1)
-        # ayoub
+        return n * factorial(n+1)
+        # ayoub changed this
+
 
